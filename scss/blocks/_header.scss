@@ -1,0 +1,90 @@
+.header-section {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  // margin-top: 50px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-section__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.header-section__list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-section__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-section__item ~ .header-section__item {
+  margin-left: 30px;
+}
+
+.header-section__item:first-child .header-section__icon {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.header-section__item:first-child .header-section__degree {
+  font-size: 45px;
+  line-height: 1;
+}
+
+.header-section__icon {
+  margin-bottom: 7px;
+}
+
+.header-section__week-day {
+  text-transform: uppercase;
+}
+
+.header-section__time {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.header-section__time p {
+  margin: 0;
+}
+
+.time__date {
+  margin-right: 20px;
+  text-align: right;
+  color: #B9B9B9;
+}
+
+.time__clock {
+  display: flex;
+  align-items: flex-end;
+}
+
+.time__digit-clock {
+  font-size: 64px;
+  font-weight: 100;
+  line-height: 0.82;
+}
+
+.time__clock-period {
+  text-transform: uppercase;
+  padding-left: 10px;
+}

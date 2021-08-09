@@ -1,0 +1,35 @@
+.menu-section__wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.menu-section__list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 64px;
+}
+
+.menu-section__item ~ .menu-section__item {
+  margin-left: 23px;
+}
+
+.menu-section__link {
+  text-decoration: none;
+  color: #B4B4B4;
+  font-size: 14px;
+  transition: color 0.5s ease;
+}
+
+.menu-section__link:hover {
+  color: #333333;
+}
+
+.menu-section__link--active {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 700;
+}
